@@ -94,6 +94,7 @@ export default {
 
     editItem() {
       this.$emit('edit', this.item)
+      this.close()
     },
 
     close() {
